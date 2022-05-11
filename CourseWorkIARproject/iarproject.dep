@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3371412435</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\AHardware\EPDDriver\epddriver.h</file>
+            <file>$PROJ_DIR$\AHardware\EPDDriver\epddriverconfig.h</file>
+            <file>$PROJ_DIR$\AHardware\BME280Driver\bme280driverconfig.h</file>
+            <file>$PROJ_DIR$\AHardware\BME280Driver\BME280Driver.h</file>
+            <file>$PROJ_DIR$\AHardware\IrqController\irqcontroller.cpp</file>
+            <file>$PROJ_DIR$\AHardware\IrqController\irqcontroller.hpp</file>
+            <file>$PROJ_DIR$\Application\GUI\ScreenWallPapers.h</file>
+            <file>$PROJ_DIR$\AHardware\SPI\spiDriver.h</file>
+            <file>$PROJ_DIR$\Application\Measurement\Measurement.h</file>
+            <file>$PROJ_DIR$\AHardware\Pin\pinsconfig.h</file>
+            <file>$PROJ_DIR$\AHardware\Port\port.h</file>
+            <file>$PROJ_DIR$\AHardware\USART\usartDriver.h</file>
+            <file>$PROJ_DIR$\Application\GUI\Fonts\segoeUISemibold_24pt.h</file>
+            <file>$PROJ_DIR$\MyTasks\ButtonEventTask.h</file>
+            <file>$PROJ_DIR$\Application\GUI\Fonts\font_segoeUISemibold_24pt.h</file>
+            <file>$PROJ_DIR$\MyTasks\BluetoothTask.h</file>
+            <file>$PROJ_DIR$\MyTasks\MeasurementTask.h</file>
+            <file>$PROJ_DIR$\MyTasks\DisplayUpdateTask.h</file>
+            <file>$PROJ_DIR$\Application\GUI\Fonts\font24.cpp</file>
+            <file>$PROJ_DIR$\AHardware\Port\portsconfig.h</file>
+            <file>$PROJ_DIR$\Application\GUI\Fonts\font.hpp</file>
+            <file>$PROJ_DIR$\Application\Measurement\Temperature.h</file>
+            <file>$PROJ_DIR$\Application\GUI\Fonts\font.h</file>
+            <file>$PROJ_DIR$\AHardware\USART\usartconfig.h</file>
+            <file>$PROJ_DIR$\Application\Display\display.h</file>
+            <file>$PROJ_DIR$\AHardware\USART\usart.h</file>
+            <file>$PROJ_DIR$\AHardware\SPI\spi.h</file>
+            <file>$PROJ_DIR$\Application\GUI\Fonts\font48.cpp</file>
+            <file>$PROJ_DIR$\AHardware\Pin\pin.h</file>
+            <file>$PROJ_DIR$\Application\GUI\Fonts\font_segoeUISemibold_48pt.h</file>
+            <file>$PROJ_DIR$\Application\GUI\ScreenDriver.h</file>
+            <file>$PROJ_DIR$\Application\Led\led.h</file>
+            <file>$PROJ_DIR$\Application\Measurement\measurementconfig.h</file>
+            <file>$PROJ_DIR$\Application\Button\Button.h</file>
+            <file>$PROJ_DIR$\AHardware\SPI\spiconfig.h</file>
+            <file>$PROJ_DIR$\Application\Led\ledconfig.h</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\gpiocregisters.hpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\registerfield.hpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\FieldValues\usart2fieldvalues.hpp</file>
+            <file>$PROJ_DIR$\Debug\List\main.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\irqcontroller.xcl</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\spi2registers.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\List\Button.s</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\algorithm</file>
+            <file>$PROJ_DIR$\Debug\Obj\led.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\led.xcl</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\semphr.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led.__cstat.et</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\task.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\FieldValues\gpiobfieldvalues.hpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\registerbase.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\Button.o</file>
+            <file>$PROJ_DIR$\Debug\List\ButtonEventTask.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers.xcl</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\gpiobregisters.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cstdlib</file>
+            <file>$PROJ_DIR$\AHardware\USART\usartDriver.c</file>
+            <file>$PROJ_DIR$\Debug\List\queue.lst</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cfloat</file>
+            <file>$PROJ_DIR$\MyTasks\LedEventTask.cpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\CortexM4\nvicregisters.hpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\accessmode.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xxexception</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\gpioaregisters.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Application\userbutton.cpp</file>
+            <file>$PROJ_DIR$\Debug\List\pin.s</file>
+            <file>$PROJ_DIR$\Debug\List\LedEventTask.s</file>
+            <file>$PROJ_DIR$\..\CortexLib\Common\susudefs.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\float.h</file>
+            <file>$PROJ_DIR$\Debug\List\font48.s</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\initializer_list</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\List\iarproject.log</file>
+            <file>$PROJ_DIR$\Debug\Obj\pin.o</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\chrono</file>
+            <file>$PROJ_DIR$\Debug\List\font24.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+            <file>$PROJ_DIR$\Debug\List\led.s</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\typeinfo</file>
+            <file>$PROJ_DIR$\Debug\Obj\font48.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\event_groups.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cmath</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.o</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cstdio</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\FreeRTOS.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time32.h</file>
+            <file>$PROJ_DIR$\Debug\List\port.s</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\STM32F411\gpioaregisters.hpp</file>
+            <file>$PROJ_DIR$\MyTasks\ButtonEventTask.cpp</file>
+            <file>$PROJ_DIR$\Debug\List\font48.lst</file>
+            <file>$PROJ_DIR$\Debug\List\queue.s</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\limits</file>
+            <file>$PROJ_DIR$\Debug\List\ButtonEventTask.lst</file>
+            <file>$PROJ_DIR$\Debug\Obj\startupF411RE.__cstat.et</file>
+            <file>$PROJ_DIR$\MyTasks\LedEventTask.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\iosfwd</file>
+            <file>$PROJ_DIR$\Debug\List\irqcontroller.lst</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LedEventTask.__cstat.et</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\gpioafieldvalues.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\ostream</file>
+            <file>$PROJ_DIR$\Debug\Obj\font24.o</file>
+            <file>$PROJ_DIR$\Debug\List\event_groups.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cassert</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cwctype</file>
+            <file>$PROJ_DIR$\Debug\Obj\LedEventTask.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\font24.__cstat.et</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\timers.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Led2Task.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\croutine.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\array</file>
+            <file>$PROJ_DIR$\Debug\List\event_groups.s</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xiosbase</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.o</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\queue.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\main.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\event_groups.h</file>
+            <file>$PROJ_DIR$\Debug\List\Led2Task.s</file>
+            <file>$TOOLKIT_DIR$\inc\c\locale.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mytask.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\irqcontroller.o</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\new</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.o</file>
+            <file>$PROJ_DIR$\Debug\List\tasks.lst</file>
+            <file>$PROJ_DIR$\MyTasks\mytask.cpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\FieldValues\spi1fieldvalues.hpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\usart1registers.hpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\registertype.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\ratio</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\utility</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\rccfieldvalues.hpp</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\list.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xlocnum</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\spi1registers.hpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\usart2registers.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\Led2Task.__cstat.et</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\FieldValues\usart1fieldvalues.hpp</file>
+            <file>$PROJ_DIR$\Debug\Exe\iarproject.out</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\climits</file>
+            <file>$PROJ_DIR$\AHardware\Registers\fieldvalue.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+            <file>$PROJ_DIR$\Rtos\wrapper\FreeRtos\rtosdefs.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\event_groups.o</file>
+            <file>$PROJ_DIR$\Debug\List\Button.lst</file>
+            <file>$PROJ_DIR$\AHardware\Pin\pin.cpp</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\mpu_wrappers.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.__cstat.et</file>
+            <file>$PROJ_DIR$\AHardware\Registers\fieldvaluebase.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\wctype.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Led1Task.__cstat.et</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\accessmode.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\event_groups.xcl</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\FieldValues\gpiocfieldvalues.hpp</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\fieldvalue.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cstddef</file>
+            <file>$PROJ_DIR$\Debug\Obj\pin.__cstat.et</file>
+            <file>$PROJ_DIR$\Rtos\wrapper\FreeRtos\rtoswrapper.hpp</file>
+            <file>$PROJ_DIR$\MyTasks\ButtonEventTask.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xlocinfo</file>
+            <file>$PROJ_DIR$\Debug\List\startupF411RE.s</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$TOOLKIT_DIR$\lib\dlpp7M_tl_nc.a</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\registertype.hpp</file>
+            <file>$PROJ_DIR$\Debug\List\startupF411RE.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\MyTasks\Led1Task.cpp</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\system_error</file>
+            <file>$PROJ_DIR$\Debug\Obj\portasm.o</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\StackMacros.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mytask.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cerrno</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\STM32F411\gpiocregisters.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\portable.h</file>
+            <file>$PROJ_DIR$\Debug\List\pin.lst</file>
+            <file>$PROJ_DIR$\Debug\Obj\croutine.o</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cstdint</file>
+            <file>$PROJ_DIR$\Debug\Obj\list.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\tasks.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\startupF411RE.o</file>
+            <file>$PROJ_DIR$\Debug\List\croutine.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\ButtonEventTask.o</file>
+            <file>$PROJ_DIR$\AHardware\Registers\CortexM4\FieldValues\nvicfieldvalues.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\string</file>
+            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$PROJ_DIR$\Common\susudefs.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\font48.o</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\streambuf</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\projdefs.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cwchar</file>
+            <file>$PROJ_DIR$\Debug\List\Led2Task.lst</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\usartDriver.xcl</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\FieldValues\spi2fieldvalues.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\Debug\List\list.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\tuple</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\FieldValues\rccfieldvalues.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\xlocale_lconv.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\ios</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\rccregisters.hpp</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\registerbase.hpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\register.hpp</file>
+            <file>$PROJ_DIR$\AHardware\Registers\STM32F411\FieldValues\gpioafieldvalues.hpp</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\include\croutine.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\iarproject.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\ctime</file>
+            <file>$PROJ_DIR$\Debug\List\irqcontroller.s</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\gpiocfieldvalues.hpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\xatomic.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\queue.xcl</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\register.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\Button.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\LedEventTask.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\croutine.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\font48.__cstat.et</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\registerfield.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers.__cstat.et</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\STM32F411\rccregisters.hpp</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cstring</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\cctype</file>
+            <file>$TOOLKIT_DIR$\inc\c\xctype.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xutility</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xlocale</file>
+            <file>$PROJ_DIR$\Debug\List\timers.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\stdexcept</file>
+            <file>$PROJ_DIR$\Application\Led\led.cpp</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Button.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+            <file>$PROJ_DIR$\Debug\List\iarproject.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\timers.o</file>
+            <file>$PROJ_DIR$\Rtos\wrapper\event.hpp</file>
+            <file>$PROJ_DIR$\main.cpp</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\event_groups.c</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\istream</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xmemory</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\queue.c</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\croutine.c</file>
+            <file>$PROJ_DIR$\Rtos\wrapper\rtos.hpp</file>
+            <file>$PROJ_DIR$\Rtos\wrapper\thread.hpp</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\list.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Led2Task.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\userbutton.__cstat.et</file>
+            <file>$PROJ_DIR$\MyTasks\Led2Task.cpp</file>
+            <file>$PROJ_DIR$\Debug\List\LedEventTask.lst</file>
+            <file>$PROJ_DIR$\startupF411RE.cpp</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\timers.c</file>
+            <file>$PROJ_DIR$\MyTasks\mytask.hpp</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\tasks.c</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\List\port.lst</file>
+            <file>$PROJ_DIR$\MyTasks\Led2Task.hpp</file>
+            <file>$PROJ_DIR$\Rtos\wrapper\eventmode.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\irqcontroller.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\type_traits</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xmemory0</file>
+            <file>$PROJ_DIR$\Debug\Obj\startupF411RE.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\font24.s</file>
+            <file>$PROJ_DIR$\MyTasks\led1task.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\Led1Task.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\iterator</file>
+            <file>$PROJ_DIR$\Debug\List\timers.s</file>
+            <file>$PROJ_DIR$\..\CortexLib\AbstractHardware\Registers\fieldvaluebase.hpp</file>
+            <file>$PROJ_DIR$\Debug\Obj\userbutton.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\Led1Task.lst</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\clocale</file>
+            <file>$PROJ_DIR$\Debug\Obj\tasks.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xstring</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xstddef</file>
+            <file>$PROJ_DIR$\Debug\Obj\port.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\ButtonEventTask.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\led.lst</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\xtr1common</file>
+            <file>$PROJ_DIR$\Debug\Obj\pin.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\usartDriver.__cstat.et</file>
+            <file>$PROJ_DIR$\Application\Button\Button.cpp</file>
+            <file>$PROJ_DIR$\stm32f411xE.icf</file>
+            <file>$PROJ_DIR$\Debug\List\croutine.lst</file>
+            <file>$PROJ_DIR$\Debug\Obj\ButtonEventTask.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\font24.xcl</file>
+            <file>$PROJ_DIR$\Debug\List\list.lst</file>
+            <file>$TOOLKIT_DIR$\inc\cpp\exception</file>
+            <file>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portmacro.h</file>
+            <file>$PROJ_DIR$\Application\Button\buttonsconfig.h</file>
+            <file>$PROJ_DIR$\Application\Led\ledsconfig.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 146 253 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\AHardware\IrqController\irqcontroller.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 226 100 127</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 279</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5 23 11 25 143 38 148 164 141 174 183 182 207 194 107 95 60 72 147 80 85 210 243 149 300 57 42 287 202 246 296 74 156 280 63 197 44 260 282 187 214 128 309 64 242 137 99 87 66 239 249 218 228 108 122 37 52 134 221 133 145 115 288 259 104 217 140 199 117 244 293 125 241 216 109 157 247 295 82 168 240 135 225 196 89 176 180 252 213 34 7 26 41 209 142 132 36 161 56 51</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\GUI\Fonts\font24.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 307</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 284 79 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 187 214 174 183 182 207 194</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\GUI\Fonts\font48.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 93 198</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 234</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 187 214 174 183 182 207 194</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\AHardware\USART\usartDriver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 302</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MyTasks\LedEventTask.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 232</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69 270 110</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98 265 115 44 260 282 187 214 174 183 182 207 194 57 42 107 287 95 60 72 147 80 85 210 243 149 300 202 246 296 164 141 74 128 309 64 280 242 137 99 87 66 239 249 218 228 288 259 104 217 140 199 117 244 293 125 241 216 109 157 247 295 82 168 240 135 225 196 89 176 180 252 213 150 88 205 201 184 101 310 50 200 170 154 49 139 47 119 112 123 70 108 122 78 136 166 278 255 31 28 10 181 227 162 290 159 235 220 172 230 91 103 237 138</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\userbutton.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 291</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 268</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MyTasks\ButtonEventTask.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 306</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 96 192</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 298</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 167 265 115 44 260 282 187 214 174 183 182 207 194 57 42 107 287 95 60 72 147 80 85 210 243 149 300 202 246 296 164 141 74 128 309 64 280 242 137 99 87 66 239 249 218 228 288 259 104 217 140 199 117 244 293 125 241 216 109 157 247 295 82 168 240 135 225 196 89 176 180 252 213 150 88 205 201 184 101 310 50 200 170 154 49 139 47 119 112 123 70 108 122 78 136 166 278 255 33 28 10 181 227 162 290 159 235 220 172 230 91 103 237 138 9 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MyTasks\mytask.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 273 265 115 44 260 282 187 214 174 183 182 207 194 57 42 107 287 95 60 72 147 80 85 210 243 149 300 202 246 296 164 141 74 128 309 64 280 242 137 99 87 66 239 249 218 228 288 259 104 217 140 199 117 244 293 125 241 216 109 157 247 295 82 168 240 135 225 196 89 176 180 252 213 150 88 205 201 184 101 310 50 200 170 154 49 139 47 119 112 123 70 108 122 78 136 166 278</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\iarproject.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 253 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 304 186 151 105 198 127 129 204 206 177 86 190 118 254 75 281 171 238 275</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\AHardware\Pin\pin.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 301</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68 185 77</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28 187 214 174 183 182 207 194 10 181 227 162 164 141 107 95 60 72 147 80 85 210 243 149 300 57 42 287 202 246 296 74 290 280 159 70 44 260 282 128 309 64 242 137 99 87 66 239 249 218 228 108 122 235 220 172 230 91 103 237 138</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MyTasks\Led1Task.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 286</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 292</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 285 265 115 44 260 282 187 214 174 183 182 207 194 57 42 107 287 95 60 72 147 80 85 210 243 149 300 202 246 296 164 141 74 128 309 64 280 242 137 99 87 66 239 249 218 228 288 259 104 217 140 199 117 244 293 125 241 216 109 157 247 295 82 168 240 135 225 196 89 176 180 252 213 150 88 205 201 184 101 310 50 200 170 154 49 139 47 119 112 123 70 108 122 78 136 166 278 31 28 10 181 227 162 290 159 235 220 172 230 91 103 237 138</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\Led\led.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 299 45</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31 28 187 214 174 183 182 207 194 10 181 227 162 164 141 107 95 60 72 147 80 85 210 243 149 300 57 42 287 202 246 296 74 290 280 159 70 44 260 282 128 309 64 242 137 99 87 66 239 249 218 228 108 122 235 220 172 230 91 103 237 138</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39 121 204</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 251</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 264 265 115 44 260 282 187 214 174 183 182 207 194 57 42 107 287 95 60 72 147 80 85 210 243 149 300 202 246 296 164 141 74 128 309 64 280 242 137 99 87 66 239 249 218 228 288 259 104 217 140 199 117 244 293 125 241 216 109 157 247 295 82 168 240 135 225 196 89 176 180 252 213 150 88 205 201 184 101 310 50 200 170 154 49 139 47 119 112 123 197 108 122 78 136 166 278 255 311 33 28 10 36 161 148 156 63 37 52 134 221 65 222 56 51 219 215 9 19 15 23 11 25 143 38 133 145 2 3 7 26 41 209 142 132 34 32 8 195 21 312 31 13 16 17 24 1 0 30 29 22 14 6 62 193</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\port.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 212</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90 276 206</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 297</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 200 183 182 207 194 170 88 141 174 107 214 205 201 184 101 310 154 49 139</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116 106 151</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 174 183 182 207 194 107 287 88 141 214 205 201 184 101 310 50 200 170 154 49 139 112 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 205</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 229</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94 59 86</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 155</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 174 183 182 207 194 107 287 249 218 88 141 214 205 201 184 101 310 50 200 170 154 49 139 119</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\croutine.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 191 305 186</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 233</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 141 174 183 182 207 194 107 214 205 201 184 101 310 50 200 170 154 49 139 223</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\list.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 211 308 129</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 174 183 182 207 194 107 287 88 141 214 205 201 184 101 310 50 200 170 154 139</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MyTasks\Led2Task.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 203 267</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 144</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 277 265 115 44 260 282 187 214 174 183 182 207 194 57 42 107 287 95 60 72 147 80 85 210 243 149 300 202 246 296 164 141 74 128 309 64 280 242 137 99 87 66 239 249 218 228 288 259 104 217 140 199 117 244 293 125 241 216 109 157 247 295 82 168 240 135 225 196 89 176 180 252 213 150 88 205 201 184 101 310 50 200 170 154 49 139 47 119 112 123 70 108 122 78 136 166 278 91 103 162 290 159 235 220 172 230 181 227</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startupF411RE.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 283</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169 173 190</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5 264 265 115 44 260 282 187 214 174 183 182 207 194 57 42 107 287 95 60 72 147 80 85 210 243 149 300 202 246 296 164 141 74 128 309 64 280 242 137 99 87 66 239 249 218 228 288 259 104 217 140 199 117 244 293 125 241 216 109 157 247 295 82 168 240 135 225 196 89 176 180 252 213 150 88 205 201 184 101 310 50 200 170 154 49 139 47 119 112 123 197 108 122 78 136 166 278</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 289 245 254</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 236</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 174 183 182 207 194 107 287 88 141 214 205 201 184 101 310 50 200 170 154 49 139 119 112</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 294</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189 130 118</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 163</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 174 183 182 207 194 107 287 249 218 88 141 214 205 201 184 101 310 50 200 170 154 49 139 112 178</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Application\Button\Button.cpp</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 231</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43 152 53</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 250</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33 28 187 214 174 183 182 207 194 10 181 227 162 164 141 107 95 60 72 147 80 85 210 243 149 300 57 42 287 202 246 296 74 290 280 159 70 44 260 282 128 309 64 242 137 99 87 66 239 249 218 228 108 122 235 220 172 230 91 103 237 138 9 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\portable\Common\mpu_wrappers.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\AHardware\USART\usartDriver.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\Application\userbutton.cpp</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\MyTasks\mytask.cpp</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\portable\MemMang\heap_1.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\Rtos\FreeRtos\portable\IAR\ARM_CM4F\portasm.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>

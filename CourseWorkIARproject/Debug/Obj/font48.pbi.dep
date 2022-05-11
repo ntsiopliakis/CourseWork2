@@ -1,0 +1,10 @@
+font48.pbi: \
+  D:\Nikolaos\My\ Documents\IAR\ projects\CourseWork-main2\CourseWorkIARproject\Application\GUI\Fonts\font48.cpp \
+  D:\Nikolaos\My\ Documents\IAR\ projects\CourseWork-main2\CourseWorkIARproject\Application\GUI\Fonts/font.hpp \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\cpp\cstdint \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  D:\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h
